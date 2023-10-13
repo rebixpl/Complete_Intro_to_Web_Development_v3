@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz Logowania</title>
+    <script>
+        function sprawdzFormularz() {
+            var login = document.getElementById("login").value;
+            var haslo = document.getElementById("haslo").value;
+            var komunikat = document.getElementById("komunikat");
+
+            // Resetujemy komunikat
+            komunikat.textContent = "";
+
+            if (haslo === "") {
+                komunikat.textContent += "Wypełnij pole hasło!\n";
+            }
+
+            if (login.length === 1) {
+                komunikat.textContent += "Login musi składać się z co najmniej 2 znaków!\n";
+            }
+
+            if (haslo.length === 1) {
+                komunikat.textContent += "Hasło musi składać się z co najmniej 2 znaków!\n";
+            }
+
+            if (login.length < 3 || haslo.length < 3) {
+                komunikat.textContent += "Login i hasło muszą składać się z co najmniej 3 znaków!\n";
+            }
+
+            if (login === "" && haslo === "") {
+                komunikat.textContent += "Wypełnij login i hasło!\n";
+            }
+
+            if (login === "") {
+                komunikat.textContent += "Wypełnij pole login!\n";
+            }
+
+            return komunikat.textContent === ""; // Zwracamy true, jeśli brak błędów
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Formularz Logowania</h1>
+    <form onsubmit="return sprawdzFormularz()">
+        <label for="login">Login:</label>
+        <input type="text" id="login" name="login"><br><br>
+
+        <label for="haslo">Hasło:</label>
+        <input type="password" id="haslo" name="haslo"><br><br>
+
+        <input type="submit" value="Zaloguj się">
+    </form>
+    <div id="komunikat" style="color: red;"></div>
+</body>
+
+</html>
