@@ -1,0 +1,52 @@
+/* Pseudo-classes */
+.hover-example {
+  width: 100px;
+  height: 100px;
+  background-color: limegreen;
+  color: white;
+}
+
+.hover-example:hover {
+  width: 150px;
+  height: 150px;
+  background-color: crimson;
+}
+
+.hover-example:active {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.first-child-example {
+  color: crimson;
+}
+
+.first-child-example:first-child {
+  color: limegreen;
+}
+
+.first-child-example:last-child {
+  color: blue;
+}
+
+.first-child-example:nth-child(3) {
+  color: darkgoldenrod;
+}
+
+.first-child-example:nth-child(2n + 5) {
+  color: violet;
+}
+
+/* PSUEDO ELEMENTS */
+.chapter p {
+  margin: 0;
+}
+
+.chapter::after {
+  content: "💦";
+  color: crimson;
+  font-size: 42px;
+  text-align: center;
+  display: block;
+}
