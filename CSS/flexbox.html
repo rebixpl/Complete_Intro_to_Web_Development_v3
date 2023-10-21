@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box-1 {
+            border: 1px solid black;
+            color: white;
+            background-color: blue;
+            height: 150px;
+            width: 300px;
+        }
+
+        .box-2 {
+            border: 1px solid black;
+            color: white;
+            background-color: red;
+            height: 100px;
+            width: 300px;
+        }
+
+        .box-3 {
+            border: 1px solid black;
+            color: white;
+            background-color: green;
+            height: 200px;
+            width: 100px;
+        }
+
+        .flex-container {
+            display: flex;
+            width: 100%;
+            border: 1px solid black;
+        }
+
+        .reverse {
+            flex-direction: row-reverse;
+        }
+
+        .column {
+            flex-direction: column;
+        }
+
+        .jc-right {
+            justify-content: flex-end;
+        }
+
+        .jc-center {
+            justify-content: center;
+        }
+
+        .jc-sb {
+            justify-content: space-between;
+        }
+
+        .jc-sa {
+            justify-content: space-around;
+        }
+
+        .ai-fe {
+            align-items: flex-end;
+        }
+
+        .ai-center {
+            align-items: center;
+        }
+
+        .ai-stretch {
+            align-items: stretch;
+            height: 200px;
+        }
+
+        /* remove the height from the three boxes */
+        .no-height {
+            height: inherit;
+        }
+
+        .ai-grow {
+            background-color: aliceblue;
+        }
+
+        .ai-grow .box-1 {
+            flex-grow: 1;
+            width: 0;
+        }
+
+        .ai-grow .box-2 {
+            flex-grow: 5;
+            width: 0;
+        }
+
+        .ai-grow .box-3 {
+            flex-grow: 10;
+            width: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Flex Container</h1>
+    <div class="flex-container">
+        <div class="box-1">1</div>
+        <div class="box-2">2</div>
+        <div class="box-3">3</div>
+    </div>
+
+    <h1>flex-direction: row-reverse</h1>
+    <div class="flex-container reverse">
+        <div class="box-1">1</div>
+        <div class="box-2">2</div>
+        <div class="box-3">3</div>
+    </div>
+
+    <h1>flex-direction: column</h1>
+    <div class="flex-container column">
+        <div class="box-1">1</div>
+        <div class="box-2">2</div>
+        <div class="box-3">3</div>
+    </div>
+
+    <h1>justify-content: flex-end</h1>
+    <div class="flex-container jc-right">
+        <div class="box-1">1</div>
+        <div class="box-2">2</div>
+        <div class="box-3">3</div>
+    </div>
+
+    <h1>justify-content: center</h1>
+    <div class="flex-container jc-center">
+        <div class="box-1">1</div>
+        <div class="box-2">2</div>
+        <div class="box-3">3</div>
+    </div>
+
+    <h1>justify-content: space-between</h1>
+    <div class="flex-container jc-sb">
+        <div class="box-1">1</div>
+        <div class="box-2">2</div>
+        <div class="box-3">3</div>
+    </div>
+
+    <h1>justify-content: space-around</h1>
+    <div class="flex-container jc-sa">
+        <div class="box-1">1</div>
+        <div class="box-2">2</div>
+        <div class="box-3">3</div>
+    </div>
+
+    <h1>align-items: flex-end</h1>
+    <div class="flex-container ai-fe">
+        <div class="box-1">1</div>
+        <div class="box-2">2</div>
+        <div class="box-3">3</div>
+    </div>
+
+    <h1>align-items: center</h1>
+    <div class="flex-container ai-center">
+        <div class="box-1">1</div>
+        <div class="box-2">2</div>
+        <div class="box-3">3</div>
+    </div>
+
+    <h1>align-items: stretch</h1>
+    <div class="flex-container ai-stretch">
+        <div class="box-1 no-height">1</div>
+        <div class="box-2 no-height">2</div>
+        <div class="box-3 no-height">3</div>
+    </div>
+
+    <h1>align-items: grow</h1>
+    <div class="flex-container ai-grow">
+        <div class="box-1">1</div>
+        <div class="box-2">5</div>
+        <div class="box-3">10</div>
+    </div>
+
+    <div class="flex-container ai-center reverse jc-sa">
+        <div class="box-1">1</div>
+        <div class="box-2">2</div>
+        <div class="box-3">3</div>
+    </div>
+</body>
+
+</html>
