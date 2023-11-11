@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Subscribe Form To Google Sheet</title>
+</head>
+
+<body>
+    <div class="hero">
+        <h3>Are you ready for all the HOT 🥵 GIRLS or are you<br />gonna just settle for jerking off alone?</h3>
+        <h1>“POSSIBLY THE MOST CONTROVERSIAL COURSE<br />FOR THE GENERAL PUBLIC EVER WRITTEN…”</h1>
+        <h4>OUR NEW STRATEGY! Works 99.5% of times!</h4>
+        <p>HURRY! STOCK OF THIS COURSE AS OF NOVEMBER 11TH IS LOW</p>
+        <img src="./images/stock-levels.gif" class="stock-levels">
+        <form name="submit-to-google-sheet">
+            <input type="email" name="Email" placeholder="Your email">
+            <button type="submit"><img src="./images/send-icon.png" width="30px"></button>
+        </form>
+        <span class="msg"></span>
+    </div>
+    <script>
+        const scriptURL = "https://script.google.com/macros/s/AKfycbwSeb-8OdgARULoX8rKixyxl6qUEriScEJGwzzKrCZNsemaWD0VIWS_Kh3_AoaOJi-1BQ/exec";
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.querySelector('.msg');
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                method: 'POST',
+                body: new FormData(form)
+            })
+                .then(response => {
+                    msg.innerHTML = "Thank you for subscribing!";
+                    setTimeout(() => {
+                        msg.innerHTML = "";
+                    }, 5000);
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
