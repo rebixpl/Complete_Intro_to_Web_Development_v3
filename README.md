@@ -34,12 +34,21 @@ Each directory represents a category of projects, and within each category, ther
     ![Drag and drop](./readme_pics/drag_and_drop.png)
 
   - drop_down_profile_menu
+    ![Drop Down Profile Menu](./readme_pics/drop_down_profile_menu.png)
+
   - email_subscription_form
     ![Email Subscription Form](./readme_pics/email_sub_form.png)
 
   - image_search_engine
+    ![Image Search Engine (API)](./readme_pics/img_search_engine.png)
+
   - image_slider
+    ![Image Slider](./readme_pics/img_slider.png)
+
   - sidebar_menu
+    ![Sidebar Menu Open](./readme_pics/sidebar_menu_open.png)
+    ![Sidebar Menu Close](./readme_pics/sidebar_menu_close.png)
+
   - snackbar_notification
   - todo_list_app
   - twitter_login_page
