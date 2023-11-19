@@ -18,6 +18,9 @@ Each directory represents a category of projects, and within each category, ther
 
 - YT_PROJECTS
 
+  - music_player
+    ![Music Player](./readme_pics/music_player.png)
+
   - spinning_donut
     ![Spinning Donut with JS](./readme_pics/spinning_donut.png)
 
