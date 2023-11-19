@@ -53,7 +53,13 @@ Each directory represents a category of projects, and within each category, ther
     ![Sidebar Menu Close](./readme_pics/sidebar_menu_close.png)
 
   - snackbar_notification
+    ![Snackbar Notification](./readme_pics/snackbar_notification.png)
+
   - todo_list_app
+    ![Todo List App](./readme_pics/todo_list_app.png)
+
   - twitter_login_page
+    ![Twitter Login Page](./readme_pics/twitter_login_page.png)
+
   - video_in_background
   - weather_app
