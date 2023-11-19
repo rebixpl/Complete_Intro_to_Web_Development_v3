@@ -18,6 +18,9 @@ Each directory represents a category of projects, and within each category, ther
 
 - YT_PROJECTS
 
+  - spinning_donut
+    ![Spinning Donut with JS](./readme_pics/spinning_donut.png)
+
   - animated_logo
     ![Animated Logo](./readme_pics/animated_logo.png)
 
