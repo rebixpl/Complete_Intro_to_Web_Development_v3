@@ -4,19 +4,10 @@ Each directory represents a category of projects, and within each category, ther
 
 # Directory Tree
 
-- CSS
-
-  - the_coffee_masters
-    ![The Coffee Masters](./readme_pics/coffe_website.png)
-  - the_news_times
-    ![The News Times](./readme_pics/the_news_times.png)
-
-- JS
-
-  - calculator
-    ![Calculator](./readme_pics/calculator.png)
-
 - YT_PROJECTS
+
+  - profile_card_design
+    ![Profile Card Design](./readme_pics/profile_card_design.png)
 
   - music_player
     ![Music Player](./readme_pics/music_player.png)
@@ -73,3 +64,15 @@ Each directory represents a category of projects, and within each category, ther
   - weather_app
     ![Weather App (API) 1](./readme_pics/weather_app_1.png)
     ![Weather App (API) 2](./readme_pics/weather_app_2.png)
+
+- CSS
+
+  - the_coffee_masters
+    ![The Coffee Masters](./readme_pics/coffe_website.png)
+  - the_news_times
+    ![The News Times](./readme_pics/the_news_times.png)
+
+- JS
+
+  - calculator
+    ![Calculator](./readme_pics/calculator.png)
