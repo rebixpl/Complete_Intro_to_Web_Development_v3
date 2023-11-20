@@ -6,6 +6,9 @@ Each directory represents a category of projects, and within each category, ther
 
 - YT_PROJECTS
 
+  - glitch_effect_text
+    ![Glitch Effect Text](./readme_pics/glitch_effect_text.png)
+
   - virtual_credit_card
     ![Virtual Credit Card 1](./readme_pics/virtual_credit_card_1.png)
     ![Virtual Credit Card 2](./readme_pics/virtual_credit_card_2.png)
