@@ -6,6 +6,10 @@ Each directory represents a category of projects, and within each category, ther
 
 - YT_PROJECTS
 
+  - responsive_image_gallery
+    ![Responsive Image Gallery 1](./readme_pics/resp_img_gallery_1.png)
+    ![Respnsive Image Gallery 2](./readme_pics/resp_img_gallery_2.png)
+
   - netflix_subscription_page
     ![Netflix Subscription Page](./readme_pics/netflix_subscription_page.png)
 
