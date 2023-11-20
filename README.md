@@ -6,6 +6,9 @@ Each directory represents a category of projects, and within each category, ther
 
 - YT_PROJECTS
 
+  - netflix_subscription_page
+    ![Netflix Subscription Page](./readme_pics/netflix_subscription_page.png)
+
   - profile_card_design
     ![Profile Card Design](./readme_pics/profile_card_design.png)
 
