@@ -6,6 +6,9 @@ Each directory represents a category of projects, and within each category, ther
 
 - YT_PROJECTS
 
+  - modern_website_header
+    ![Modern Website Header](./readme_pics/modern_website_header.png)
+
   - cookies_popup
     ![Cookies Popup](./readme_pics/cookies_popup.png)
 
