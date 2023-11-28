@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cookie Popup</title>
+</head>
+
+<body onload="showModal()">
+    <div id="modalbox">
+        <img src="./images/cookies.png" alt="" class="cookies">
+        <p>We use cookies to improve your experience on our website.</p>
+        <button type="button" onclick="closeModal()">Accept</button>
+        <img src="./images/close.png" alt="" class="close-icon" onclick="closeModal()">
+    </div>
+
+    <script>
+        let modalBox = document.getElementById('modalbox');
+
+        function showModal() {
+            setTimeout(() => {
+                modalBox.style.display = 'block';
+            }, 1000);
+        }
+
+        function closeModal() {
+            modalBox.style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>

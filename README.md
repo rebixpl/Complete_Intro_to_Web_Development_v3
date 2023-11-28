@@ -6,6 +6,9 @@ Each directory represents a category of projects, and within each category, ther
 
 - YT_PROJECTS
 
+  - cookies_popup
+    ![Cookies Popup](./readme_pics/cookies_popup.png)
+
   - glitch_effect_text
     ![Glitch Effect Text](./readme_pics/glitch_effect_text.png)
 
