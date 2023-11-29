@@ -6,7 +6,7 @@ Each directory represents a category of projects, and within each category, ther
 
 - ReactJS
 
-  -
+  - movies_app
 
 - TailwindCSS
 
