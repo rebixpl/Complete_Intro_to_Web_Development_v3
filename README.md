@@ -7,6 +7,7 @@ Each directory represents a category of projects, and within each category, ther
 - ReactJS
 
   - movies_app
+    ![Movies App](./readme_pics/movies_app.png)
 
 - TailwindCSS
 
