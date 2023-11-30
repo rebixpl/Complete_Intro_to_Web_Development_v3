@@ -19,6 +19,8 @@ Each directory represents a category of projects, and within each category, ther
 - YT_PROJECTS
 
   - login_register_website
+    ![Login Register Website 1](./readme_pics/login_register_website1.png)
+    ![Login Register Website 2](./readme_pics/login_register_website2.png)
 
   - signup_form
     ![Signup Form](./readme_pics/signup_form.png)
