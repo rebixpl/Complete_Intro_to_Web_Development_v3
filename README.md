@@ -10,6 +10,7 @@ Each directory represents a category of projects, and within each category, ther
     ![Movies App](./readme_pics/movies_app.png)
 
   - first_project
+    ![First Project ToDo App](./readme_pics/first_project_todo_app.png)
 
 - TailwindCSS
 
