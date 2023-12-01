@@ -6,6 +6,8 @@ Each directory represents a category of projects, and within each category, ther
 
 - ReactJS
 
+  - quiz_app
+
   - movies_app
     ![Movies App](./readme_pics/movies_app.png)
 
