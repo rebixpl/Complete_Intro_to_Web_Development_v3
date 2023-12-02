@@ -28,9 +28,9 @@ function AnswerTimer({ duration, onTimeUp }) {
 
       setTimeout(() => {
         onTimeUp();
-      }, 1000); // setTimeout 1s, because the animation takes 1s to finish
+      }, 100); // setTimeout 1s, because the animation takes 1s to finish
     }
-  }, [counter]);
+  }, [counter, duration, onTimeUp]);
 
   return (
     <div className="answer-timer-container">
