@@ -1,5 +1,5 @@
 import Quiz from "./components/Quiz/Quiz";
-import { jsQuizz } from "./constants";
+// import { jsQuizz } from "./constants";
 import { useEffect, useState } from "react";
 
 function App() {

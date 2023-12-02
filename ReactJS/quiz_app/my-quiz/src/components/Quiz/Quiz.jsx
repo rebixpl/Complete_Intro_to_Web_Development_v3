@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { resultInitialState } from "../../constants";
 import "./Quiz.scss";
 import AnswerTimer from "./AnswerTimer/AnswerTimer";
+import Result from "../Result/Result";
 
 const Quiz = ({ questions }) => {
   Quiz.propTypes = {
@@ -131,22 +132,11 @@ const Quiz = ({ questions }) => {
           </div>
         </>
       ) : (
-        <div className="result">
-          <h3>Result</h3>
-          <p>
-            Total Questions: <span> {questions.length}</span>
-          </p>
-          <p>
-            Total Score: <span> {result.score}</span>
-          </p>
-          <p>
-            Correct Answers: <span> {result.correctAnswers}</span>
-          </p>
-          <p>
-            Wrong Answers: <span> {result.wrongAnswers}</span>
-          </p>
-          <button onClick={onTryAgain}>Try again</button>
-        </div>
+        <Result
+          result={result}
+          onTryAgain={onTryAgain}
+          totalQuestions={questions.length}
+        />
       )}
     </div>
   );
