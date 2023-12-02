@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import { resultInitialState } from "../../constants";
 import "./Quiz.scss";
@@ -34,6 +34,10 @@ const Quiz = ({ questions }) => {
       setAnswer(false);
     }
   };
+
+  useEffect(() => {
+    document.title = `Question: ${currentQuestion + 1}`;
+  }, [currentQuestion]);
 
   const onClickNext = (finalAnswer) => {
     setAnswerIdx(null);
