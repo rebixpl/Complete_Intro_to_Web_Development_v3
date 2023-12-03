@@ -18,4 +18,14 @@
       font-size: 22px;
     }
   }
+
+  table {
+    width: 50%;
+    margin: 50px auto 20px;
+    border-collapse: collapse;
+
+    tr {
+      border: 1px solid $primary;
+    }
+  }
 }
