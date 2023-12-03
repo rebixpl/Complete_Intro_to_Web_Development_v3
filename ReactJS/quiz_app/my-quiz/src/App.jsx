@@ -22,7 +22,11 @@ function App() {
   };
 
   // return <Quiz questions={jsQuizz.questions} />; // hardcoded questions
-  return questions.length && <Quiz questions={questions} />; // fetched questions
+  return questions.length ? (
+    <Quiz questions={questions} />
+  ) : (
+    <h1>Loading...</h1>
+  ); // fetched questions
 }
 
 export default App;

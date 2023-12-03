@@ -116,7 +116,7 @@ const Quiz = ({ questions }) => {
       {!showResult ? (
         <>
           {showAnswerTimer && (
-            <AnswerTimer duration={4} onTimeUp={handleTimeUp} />
+            <AnswerTimer duration={10} onTimeUp={handleTimeUp} />
             // && operator: if showAnswerTimer is true, then render AnswerTimer
           )}
           <span className="active-question-no">{currentQuestion + 1}</span>
