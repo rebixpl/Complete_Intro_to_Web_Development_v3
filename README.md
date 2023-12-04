@@ -24,6 +24,9 @@ Each directory represents a category of projects, and within each category, ther
 
 - YT_PROJECTS
 
+  - task_tracker_ui
+    ![Task Tracker UI](./readme_pics/task_tracker_ui.png)
+
   - login_register_website
     ![Login Register Website 1](./readme_pics/login_register_website1.png)
     ![Login Register Website 2](./readme_pics/login_register_website2.png)
