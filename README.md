@@ -24,6 +24,9 @@ Each directory represents a category of projects, and within each category, ther
 
 - YT_PROJECTS
 
+  - circular_progress_bar
+    ![Circular Progress Bar](./readme_pics/circular_progress_bar.png)
+
   - task_tracker_ui
     ![Task Tracker UI](./readme_pics/task_tracker_ui.png)
 
