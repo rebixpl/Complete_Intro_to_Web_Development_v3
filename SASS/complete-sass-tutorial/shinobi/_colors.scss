@@ -6,6 +6,12 @@
     color: $val;
   }
 
+  .text-hover-#{$key} {
+    &:hover {
+      color: $val;
+    }
+  }
+
   // Similarly, it generates a CSS class .bg-{key} where {key} is the current key from the map.
   // The background property of this class is set to the corresponding value from the map.
   .bg-#{$key} {
@@ -19,6 +25,12 @@
         color: mix(white, $val, $i * 10%);
       }
 
+      .text-hover-#{$key}-light-#{$i} {
+        &:hover {
+          color: mix(white, $val, $i * 10%);
+        }
+      }
+
       .bg-#{$key}-light-#{$i} {
         background: mix(white, $val, $i * 10%);
       }
@@ -28,6 +40,12 @@
     @for $i from 1 through 9 {
       .text-#{$key}-dark-#{$i} {
         color: mix(black, $val, $i * 10%);
+      }
+
+      .text-hover-#{$key}-dark-#{$i} {
+        &:hover {
+          color: mix(black, $val, $i * 10%);
+        }
       }
 
       .bg-#{$key}-dark-#{$i} {
