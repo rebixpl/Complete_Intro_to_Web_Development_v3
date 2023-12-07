@@ -126,6 +126,9 @@ Each directory represents a category of projects, and within each category, ther
 - SASS
 
   - complete-sass-tutorial/shinobi
+    ![shinobi_readme 1](./readme_pics/shinobi_readme_1.png)
+    ![shinobi_readme 2](./readme_pics/shinobi_readme_2.png)
+
     - homepage
       ![shinobi_homepage 1](./readme_pics/shinobi_homepage_1.png)
       ![shinobi_homepage 2](./readme_pics/shinobi_homepage_2.png)
