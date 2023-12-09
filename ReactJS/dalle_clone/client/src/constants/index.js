@@ -27,7 +27,7 @@ export const surpriseMePrompts = [
   "A photo of Michelangelo's sculpture of David wearing headphones djing",
   "A Samurai riding a Horse on Mars, lomography.",
   "A modern, sleek Cadillac drives along the Gardiner expressway with downtown Toronto in the background, with a lens flare, 50mm photography",
-  "A realistic photograph of a young woman with blue eyes and blonde hair",
+  "A realistic photograph of a young woman, 18 years old with blue eyes and long blonde hair, she is attractive and has a nice smile, 50mm lens, photography, portrait, natural light, outdoors, summer",
   "A man standing in front of a stargate to another dimension",
   "Spongebob Squarepants in the Blair Witch Project",
   "A velociraptor working at a hotdog stand, lomography",
