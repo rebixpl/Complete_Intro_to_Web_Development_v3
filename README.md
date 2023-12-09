@@ -6,6 +6,8 @@ Each directory represents a category of projects, and within each category, ther
 
 - ReactJS
 
+  - dalle_clone
+
   - quiz_app
     ![Quiz App 1](./readme_pics/quiz_app1.png)
     ![Quiz App 2](./readme_pics/quiz_app2.png)
