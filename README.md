@@ -26,6 +26,9 @@ Each directory represents a category of projects, and within each category, ther
 
 - YT_PROJECTS
 
+  - housing_website
+    ![Housing Website](./readme_pics/housing_website.png)
+
   - circular_progress_bar
     ![Circular Progress Bar](./readme_pics/circular_progress_bar.png)
 
