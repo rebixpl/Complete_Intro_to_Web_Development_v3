@@ -47,9 +47,8 @@ const CreatePost = () => {
     e.preventDefault();
 
     if (form.prompt && form.photo) {
+      setLoading(true);
       try {
-        setLoading(true);
-
         const response = await fetch("http://localhost:8080/api/v1/post", {
           method: "POST",
           headers: {
